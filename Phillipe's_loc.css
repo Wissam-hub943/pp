@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(193, 219, 245);
+    margin: 70px;
+}
+
+h1 {
+    text-align: center;
+    color: hsl(181, 55%, 16%);
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+h2 {
+    color: hsl(181, 55%, 16%);
+    text-align: center;
+    margin-left: 17%;
+    margin-top: 5px;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: black; 
+    margin: 20px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+}
+
+.image-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px; 
+}
+
+.map {
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
+    border: 2px solid hsl(181, 55%, 16%); 
+    border-radius: 5px; 
+}
+
+.caption {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: fantasy;
+    color: hsl(181, 55%, 16%);
+    text-align: center;
+}

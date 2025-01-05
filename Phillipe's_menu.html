@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Phillipe's</title>
+    <link rel="stylesheet" href="Phillipe's_menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://i.postimg.cc/1tbr6sj2/logo2.jpg" type="image/x-icon">
+</head>
+<body>
+    <h1>Phillipe's</h1>
+    <h2>Coffee House</h2>
+
+    <p id="p1" class="p"><a href="#Hot">Hot Beverages</a></p>
+    <p id="p2" class="p"><a href="#Cold">Cold Beverages</a></p>
+    <p id="p3" class="p"><a href="#Dessert">Desserts</a></p>
+<br>
+<br>
+<br>
+<section id="Hot" class="menu_section">
+    <h3 class="h3">Hot Beverages</h3>
+    <div class="menu_content" style="display: flex; justify-content: space-between;">
+        <div class="menu_items" style="flex: 2;">
+            <div class="menu_item">
+                <div class="menu_text">
+                    <p>White Mocha - $3.5</p>
+                    <h5>Espresso, steamed milk, white chocolate syrup, whipped cream</h5>
+                    <div class="counter">
+                        <button onclick="decrement('white_mocha')">-</button>
+                        <span id="white_mocha">0</span>
+                        <button onclick="increment('white_mocha')">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_item">
+                <div class="menu_text">
+                    <p>Cappuccino - $4</p>
+                    <h5>Espresso, steamed milk, milk foam</h5>
+                    <div class="counter">
+                        <button onclick="decrement('cappuccino')">-</button>
+                        <span id="cappuccino">0</span>
+                        <button onclick="increment('cappuccino')">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_item">
+                <div class="menu_text">
+                    <p>Latte - $4</p>
+                    <h5>Espresso, steamed milk, a light layer of milk foam</h5>
+                    <div class="counter">
+                        <button onclick="decrement('latte')">-</button>
+                        <span id="latte">0</span>
+                        <button onclick="increment('latte')">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_item">
+                <div class="menu_text">
+                    <p>Hot Chocolate - $2.5</p>
+                    <h5>Milk, cocoa powder, sugar, whipped cream</h5>
+                    <div class="counter">
+                        <button onclick="decrement('hot_chocolate')">-</button>
+                        <span id="hot_chocolate">0</span>
+                        <button onclick="increment('hot_chocolate')">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_item">
+                <div class="menu_text">
+                    <p>Americano - $2</p>
+                    <h5>Espresso, hot water</h5>
+                    <div class="counter">
+                        <button onclick="decrement('americano')">-</button>
+                        <span id="americano">0</span>
+                        <button onclick="increment('americano')">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="image_box">
+            <img src="https://i.postimg.cc/0QtmPc9n/Hot.jpg" class="box_image">
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<section id="Cold" class="menu_section">
+    <h3 class="h3">Cold Beverages</h3>
+    <div class="menu_content">
+        <div class="menu_items">
+            <div class="menu_item">
+                <div class="menu_text">
+                    <p>Iced Coffee - $3</p>
+                    <h5>Brewed coffee, ice, sugar, milk</h5>
+                    <div class="counter">
+                        <button onclick="decrement('iced_coffee')">-</button>
+                        <span id="iced_coffee">0</span>
+                        <button onclick="increment('iced_coffee')">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_item">
+                <div class="menu_text">
+                    <p>Iced Latte - $4</p>
+                    <h5>Espresso, cold milk, ice</h5>
+                    <div class="counter">
+                        <button onclick="decrement('iced_latte')">-</button>
+                        <span id="iced_latte">0</span>
+                        <button onclick="increment('iced_latte')">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_item">
+                <div class="menu_text">
+                    <p>Cold Iced Matcha Latte - $5</p>
+                    <h5>Matcha powder, milk, ice, sweetener</h5>
+                    <div class="counter">
+                        <button onclick="decrement('matcha_latte')">-</button>
+                        <span id="matcha_latte">0</span>
+                        <button onclick="increment('matcha_latte')">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_item">
+                <div class="menu_text">
+                    <p>Smoothies - $4.5</p>
+                    <h5>Fruit, yogurt or milk, ice, sweetener</h5>
+                    <div class="counter">
+                        <button onclick="decrement('smoothies')">-</button>
+                        <span id="smoothies">0</span>
+                        <button onclick="increment('smoothies')">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_item">
+                <div class="menu_text">
+                    <p>Cold Brew - $3</p>
+                    <h5>Coarse ground coffee, cold water</h5>
+                    <div class="counter">
+                        <button onclick="decrement('cold_brew')">-</button>
+                        <span id="cold_brew">0</span>
+                        <button onclick="increment('cold_brew')">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="image_box">
+            <img src="https://i.postimg.cc/6qyZ3n3X/Cold.png" class="box_image">
+        </div>
+    </div>
+</section>
+
+<hr>
+
+<section id="Dessert" class="menu_section">
+    <h3 class="h3">Desserts</h3>
+    <div class="menu_content">
+        <div class="menu_items">
+            <div class="menu_item">
+                <div class="menu_text">
+                    <p>Cheesecake - $5</p>
+                    <h5>Choose your flavor</h5>
+                    <div class="counter">
+                        <button onclick="decrement('cheesecake')">-</button>
+                        <span id="cheesecake">0</span>
+                        <button onclick="increment('cheesecake')">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_item">
+                <div class="menu_text">
+                    <p>Brownies - $2.5</p>
+                    <div class="counter">
+                        <button onclick="decrement('brownies')">-</button>
+                        <span id="brownies">0</span>
+                        <button onclick="increment('brownies')">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_item">
+                <div class="menu_text">
+                    <p>Cinnamon Rolls - $5.5</p>
+                    <div class="counter">
+                        <button onclick="decrement('cinnamon_rolls')">-</button>
+                        <span id="cinnamon_rolls">0</span>
+                        <button onclick="increment('cinnamon_rolls')">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_item">
+                <div class="menu_text">
+                    <p>Croissants - $2</p>
+                    <h5>Choose your flavor</h5>
+                    <div class="counter">
+                        <button onclick="decrement('croissants')">-</button>
+                        <span id="croissants">0</span>
+                        <button onclick="increment('croissants')">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="menu_item">
+                <div class="menu_text">
+                    <p>Muffins - $2</p>
+                    <h5>Choose your flavor</h5>
+                    <div class="counter">
+                        <button onclick="decrement('muffins')">-</button>
+                        <span id="muffins">0</span>
+                        <button onclick="increment('muffins')">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="image_box">
+            <img src="https://i.postimg.cc/gjQZ6jX6/Desserts.png" class="box_image">
+        </div>
+    </div>
+</section>
+
+<script src="Phillipe's_menu.js"></script>
+</body>
+</html>
+

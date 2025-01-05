@@ -1,0 +1,190 @@
+body{
+    background-color:rgb(193, 219, 245);
+    margin: 70px;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: black; 
+    margin: 20px 0;
+}
+
+h1{
+    text-align: center;
+    color:hsl(181, 55%, 16%);
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+h2{
+    color: hsl(181, 55%, 16%);
+    text-align: center;
+    margin-left: 17%;
+    margin-top: 5px;
+}
+
+.p{
+    position: relative;
+    color: rgb(62, 61, 61);
+    font-size: 1.5em;
+}
+#p1{
+    position: absolute;
+    text-align: center;
+    margin-left: 10%;
+}
+#p2{
+    position: absolute;
+    text-align: left;
+    margin-left: 40%;
+}
+#p3{
+    position: absolute;
+    text-align: right;
+    margin-left: 70%;
+}
+.p:hover{
+    text-decoration: underline;
+}
+
+.h3{
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    color: hsl(181, 55%, 16%);
+}
+
+h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 20px;
+     ;
+}
+
+p{
+    color: rgb(70, 28, 28);
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    color: rgba(91, 84, 84, 0.777);
+    text-decoration: none;
+}
+
+
+.menu_section {
+    margin: 20px;
+}
+
+.menu_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_items {
+    flex: 2;
+}
+
+.menu_item {
+    margin-bottom: 10px;
+}
+
+.menu_text h5 {
+    margin: 5px 0;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.image_box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* General Button Styling */
+button {
+    background-color: #2f10ad;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #0e0a60;
+}
+
+/* Counter Button Specific Styling */
+.counter button {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Quantity Display Styling */
+.counter span {
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+/* "Place Order" Button Styling */
+#place-order-button {
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    padding: 10px 20px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    background-color: #4caf50; 
+    color: white; 
+    border: none; 
+    border-radius: 8px; 
+    text-align: center; 
+    cursor: pointer; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s ease, background-color 0.3s ease; 
+}
+
+/* Hover effect for the button */
+#place-order-button:hover {
+    background-color: #45a049; 
+    transform: scale(1.05); 
+}
+
+
+/* Total Display Styling */
+#total {
+    text-align: center;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
